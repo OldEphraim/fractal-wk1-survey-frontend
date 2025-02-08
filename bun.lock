@@ -5,6 +5,7 @@
       "name": "frontend",
       "dependencies": {
         "@elysiajs/eden": "^1.2.0",
+        "@netlify/vite-plugin-react-router": "^1.0.0",
         "@react-router/node": "^7.1.5",
         "@react-router/serve": "^7.1.5",
         "isbot": "^5.1.17",
@@ -188,6 +189,8 @@
     "@mjackson/node-fetch-server": ["@mjackson/node-fetch-server@0.2.0", "", {}, "sha512-EMlH1e30yzmTpGLQjlFmaDAjyOeZhng1/XCd7DExR8PNAnG/G1tyruZxEoUe11ClnwGhGrtsdnyyUx1frSzjng=="],
 
     "@netlify/open-api": ["@netlify/open-api@2.36.0", "", {}, "sha512-cxdjUkHh0/SLvPusCFOmIoKpXdfvom+cpBT/bUrP2oxxH1htWgJ59GGuu/pJGEU+xhKpPotr+TSJl00u7ktIhg=="],
+
+    "@netlify/vite-plugin-react-router": ["@netlify/vite-plugin-react-router@1.0.0", "", { "dependencies": { "@react-router/node": "^7.0.1", "isbot": "^5.0.0", "react-router": "^7.0.1" }, "peerDependencies": { "vite": ">=5.0.0" } }, "sha512-J9xzn2Gdehg3LSEXFrpXLjQm2T2HQEnnlbTH7Ic9mjaz9rwkRmgwbYBn9h5SexQ0mV82jZjhvneblL8VPKiUtQ=="],
 
     "@npmcli/git": ["@npmcli/git@4.1.0", "", { "dependencies": { "@npmcli/promise-spawn": "^6.0.0", "lru-cache": "^7.4.4", "npm-pick-manifest": "^8.0.0", "proc-log": "^3.0.0", "promise-inflight": "^1.0.1", "promise-retry": "^2.0.1", "semver": "^7.3.5", "which": "^3.0.0" } }, "sha512-9hwoB3gStVfa0N31ymBmrX+GuDGdVA/QWShZVqE0HK2Af+7QGGrCTbZia/SW0ImUTjTne7SP91qxDmtXvDHRPQ=="],
 
